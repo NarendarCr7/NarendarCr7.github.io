@@ -12,9 +12,9 @@
     <ul>
       <li><a href="">NarendarCr7</a></li>
        <li><a href="https://discord.gg/M5VGwDWAMK">Discord</a></li>
-        <li><a href="index.html">think</a></li>
+        <li><a href="https://www.snapchat.com/add/narendarcr7?share_id=bJ0T4tmJMGA&locale=en-US">Snapchat</a></li>
          <li><a href="#My_Work">My_Work</a></li>
-          <li><a href="#footer">Contact</a></li>
+          <li><a href="Mailto:mr.narendar.07@gmail.com">Contact</a></li>
     </ul>
   </nav>
   <div class="flex-container">
@@ -23,8 +23,25 @@
     <h1>Itz_Mee_LeGeNd___</h1>
     <p>I Am <strong>Narendar Singh</strong> , I Am a <strong>Web Developer</strong> and i Love <strong>Coding....</strong>
        and I Am <strong>Cristano Ronaldo 07</strong> Fan....</p>
-       <a href="" class="cta-button">Follow_Me_On_Snap___</a>
-       <a href="#my-work" class="cta-button">My_Work</a> 
+       <nav>
+        <ul>
+       <a href="https://www.snapchat.com/add/narendarcr7?share_id=bJ0T4tmJMGA&locale=en-US" class="cta-button">Follow_Me_On_Snap___</a>
+       <a href="#My_Work" class="cta-button">My_Work</a> 
+        <a><h2>Likes: <span class="Likes" id="Likes">0</span></h2>
+           <button onclick="likePost()"><h2><strong>❤️</strong></h2></a>
+        </ul>
+       </nav> 
+     <script>
+// Load saved likes from localStorage (or start at 0)
+let count = localStorage.getItem("likeCount") || 0;
+document.getElementById("likes").innerText = count;
+
+function likePost() {
+  count++;
+  document.getElementById("Likes").innerText = count;
+  localStorage.setItem("likeCount", count); // Save likes
+}
+</script>
   </div>
   </div>
  </header>
@@ -40,7 +57,7 @@
  </section>
 
  <section class="My_Work" id="My_Work">
-  <h2>My_Passions</h2>
+  <h3>My_Passions</h3>
   <div class="grid-container">
     <img style="grid-area: img-1;" src="images/Bmw.jpg">
     <img style="grid-area: img-2;" src="images/gaming.jpeg">
@@ -51,7 +68,26 @@
  </section>
 
  <section class="Contact" id="Contact" >
-  <h2>Contact_Details</h2>
+  <nav>
+  <h3><strong>Contact_Details</strong></h3>
+  <img height="50px" width="50px" src="images/discord.png">
+  <img height="50px" width="50px" src="images/social.png">
+  <img height="50px" width="50px" src="images/gmail.png">
+  <img height="50px" width="50px" src="images/discord.png">
+  <img height="50px" width="50px" src="images/social.png">
+  <img height="50px" width="50px" src="images/gmail.png">
+  <img height="50px" width="50px" src="images/discord.png">
+  <img height="50px" width="50px" src="images/social.png">
+  <img height="50px" width="50px" src="images/gmail.png">
+  <img height="50px" width="50px" src="images/discord.png">
+  <img height="50px" width="50px" src="images/social.png">
+  <img height="50px" width="50px" src="images/gmail.png">
+  <img height="50px" width="50px" src="images/discord.png">
+  <img height="50px" width="50px" src="images/social.png">
+  <img height="50px" width="50px" src="images/gmail.png">
+  <img height="50px" width="50px" src="images/discord.png">
+  <img height="50px" width="50px" src="images/social.png">
+  <img height="50px" width="50px" src="images/gmail.png">
 
   <details>
     <summary><strong>Discord</strong></summary>
@@ -62,7 +98,7 @@
    <details>
     <summary><strong>Snapchat</strong></summary>
     <img height="75px" width="75px" src="images/social.png">
-    <a class="cta-button" href="https://discord.gg/M5VGwDWAMK">Follow_Me_On_Snap__</a>
+    <a class="cta-button" href="https://www.snapchat.com/add/narendarcr7?share_id=bJ0T4tmJMGA&locale=en-US">Follow_Me_On_Snap__</a>
   </details>
 
   <details>
