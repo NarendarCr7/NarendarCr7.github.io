@@ -118,6 +118,7 @@ section {
 
 h2 {
     font-size: 2rem;
+    color: #000000;
 }
 
 section p {
@@ -261,7 +262,7 @@ section p {
 }
 
 .footer {
-    background-image: url(images/foo.jpg);
+    background-image: url(images/backkkk.png);
     background-position: center;
     background-size: cover;
 }
@@ -271,3 +272,5 @@ section p {
     background-position: center;
     background-size: cover;
 }
+
+ 
