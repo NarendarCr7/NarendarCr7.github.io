@@ -283,3 +283,35 @@ section p {
 .button onclick {
     color: #000000;
 }
+
+.cta-button {
+    button {
+  width: 80%;           /* Button takes 80% of screen/container width */
+  max-width: 300px;     /* Optional limit on big screens */
+  padding: 2vw;         /* Scales padding with viewport width */
+  font-size: 2vw;       /* Text size adjusts with screen size */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+}
+
+h4 {
+  font-size: clamp(20px, 5vw, 50px);
+}
+
+p {
+  font-size: clamp(14px, 3vw, 24px);
+}
+
+
+p {
+  font-size: 3vw;
+}
